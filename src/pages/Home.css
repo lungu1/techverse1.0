@@ -1,0 +1,56 @@
+.hero {
+  background-image: url('../assets/hero.jpg'); /* relative to Home.css */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  color: white;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* overlay darkness */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.hero h1,
+.hero p {
+  color: white;
+}
+
+
+.cta-button {
+  background-color: var(--secondary);
+  color: var(--text-light);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--accent);
+}

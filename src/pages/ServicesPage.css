@@ -1,0 +1,21 @@
+.services-page {
+    padding: 4rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--background);
+    color: var(--text-dark);
+    text-align: center;
+  }
+  
+  .services-page h2 {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  
+  .services-page p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #4B5563;
+  }
+  

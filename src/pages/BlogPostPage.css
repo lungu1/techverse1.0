@@ -1,0 +1,25 @@
+.blog-post-page {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--background);
+  color: var(--text-dark);
+}
+
+.blog-post-page h2 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.blog-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.blog-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  white-space: pre-line;
+}

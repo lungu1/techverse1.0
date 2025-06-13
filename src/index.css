@@ -1,0 +1,43 @@
+/* Reset + Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6;
+  color: #111827;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --primary: #1f2937;
+  --secondary: #3b82f6;
+  --accent: #8b5cf6;
+  --background: #f3f4f6;
+  --text-dark: #111827;
+  --text-light: #ffffff;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.app-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container main {
+  flex: 1; /* This pushes the footer down */
+}
